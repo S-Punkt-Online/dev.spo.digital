@@ -14,8 +14,28 @@
 
 <body>
     <div id="my-page">
-        <header class="header">
-            <h1>Hello World</h1>
+        <header class="header__container">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-20">
+                        <div class="header__logo-container"><img class="w-100 header__logo" src="images/logo/test.jpeg" alt="S-Punkt-Online-Logo-Bild"></div>
+                    </div>
+                    <div class="col-4">
+                        <div class="header__mobilemenu-container d-block">
+                            <div class="mmenu d-flex justify-content-end" id="my-header"><a class="mmenu__open-button mburger mburger--collapse" href="#my-menu"><b></b><b></b><b></b></a>
+                                <nav class="pt-4 mmenu__nav d-flex" id="my-menu"><a class="mmenu__close-button mburger mburger--collapse mr-3 align-self-end" href="#my-page"><b></b><b></b><b></b></a>
+                                    <ul class="mmenu__list">
+                                        <li class="mmenu__item"><a class="mmenu__link" href="#">Hauptseite</a></li>
+                                        <li class="mmenu__item"><a class="mmenu__link" href="#">Über mich</a></li>
+                                        <li class="mmenu__item"><a class="mmenu__link" href="#">Projekts</a></li>
+                                        <li class="mmenu__item"><a class="mmenu__link" href="#">Kontakt</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </header>
         <!--script(src='js/all.js')-->
         <script src="scripts/vendor.min.js"></script>
